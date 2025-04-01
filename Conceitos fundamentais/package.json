@@ -1,0 +1,17 @@
+{
+  "name": "conceitos-fundamentais",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "npx tailwindcss -i ./style/style.css -o ./style/output.css",
+    "buildatt": "npx tailwindcss -i ./style/style.css -o ./style/output.css --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "description": "",
+  "devDependencies": {
+    "tailwindcss": "^3.4.17"
+  }
+}

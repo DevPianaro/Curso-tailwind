@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Construção LAYOUT</title>
+    <link rel="stylesheet" href="/dist/output.css">
+</head>
+<body>
+
+    <div class="container bg-red-300 mx-auto p-4 my-4 text-black border-red-700 border-2">
+         <p> texto container</p>
+    </div>
+
+
+
+<!--exercício 1-->
+<div class="bg-green-500 p-8 m-1 md:bg-blue-500"> 
+     <p>Exercício 1</p>
+</div>
+
+
+    <div class="bg-purple-400 m-4 border-box p-10">container 1</div>    
+    <div class="bg-blue-400 m-4 box-content p-10">container 2</div>
+
+
+
+
+
+<!--displays-->
+<div class="container">
+    <span class="block bg-red-300">Não são blocos</span>
+    <span class="block bg-red-300">Não são blocos</span>
+    <div class="bg-blue-400 inline-block"> block</div>
+    <div class="bg-blue-400 inline-block"> block</div>
+    <div class="bg-green-300 hidden">Estou aparecendo</div>
+</div>
+
+
+
+
+
+    <!--Exercício 2 -->
+    <div class="container bg-cyan-300 m-6 p-6">
+        <div class="bg-purple-500 inline-block">Div 1</div>
+        <div class="bg-red-800    inline-block">Div 2</div>
+        <div class="bg-yellow-500 inline-block">Div 3</div>
+    </div>
+
+
+    <!--floats e clear-->
+
+    <div class="bg-gray-400 float-right m-4">float right</div>
+    <div class="clearfix"></div>
+    <div class="bg-gray-500 float-left m-4">float left</div>
+    <div class="clearfix"></div>
+    
+
+
+    <!--overflow-->
+
+    <div class="overflow-hidden h-16 m-6 bg-red-300">
+        <p>testando overflow HIDDEN</p>
+        <p>testando overflow</p>
+        <p>testando overflow</p>
+        <p>testando overflow</p>
+        <p>testando overflow</p>
+        <p>testando overflow</p>
+    </div>
+
+    <div class="overflow-auto h-16 m-6 bg-green-300">
+        <p>testando overflow AUTO</p>
+        <p>testando overflow</p>
+        <p>testando overflow</p>
+        <p>testando overflow</p>
+        <p>testando overflow</p>
+        <p>testando overflow</p>
+        <p>testando overflow</p>
+        <p>testando overflow</p>
+        <p>testando overflow</p>
+        <p>testando overflow</p>
+        <p>testando overflow</p>
+        <p>testando overflow</p>
+    </div>
+    
+    <div class="overflow-x-auto h-16 m-6 bg-blue-300">
+        <P>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</P>
+    </div>
+
+    <div class="overflow-y-auto h-16 m-6 bg-purple-500">
+        <p>testando overflow Y AUTO</p>
+        <p>testando overflow</p>
+        <p>testando overflow</p>
+        <p>testando overflow</p>
+        <p>testando overflow</p>
+        <p>testando overflow</p>
+        <p>testando overflow</p>
+        <p>testando overflow</p>
+        <p>testando overflow</p>
+        <p>testando overflow</p>
+        <p>testando overflow</p>
+        <p>testando overflow</p>
+    </div>
+
+
+    <!--positions-->
+
+    <div class="absolute top-0 right-0 bg-pink-800">
+        absolute
+    </div>
+
+    <div class="relative bg-red-600">
+        teste
+        <div class="absolute top-0 right-0 bg-pink-800">
+            absolute
+        </div>
+    </div>
+
+
+    <!--Exercicio 3-->
+
+    <div class="container bg-blue-600 m-10 h-10 relative"> 
+        container
+        <div class="absolute bottom-0 right-0 bg-red-600">DIV</div>
+    </div>
+
+
+    <!--Visibilidade-->
+
+    <div class="container bg-red-400 invisible">
+        <p>Estou oculto</p>
+    </div>
+
+    <div class="container2 bg-red-400 visible">
+        <p>Não estou oculto</p>
+    </div>
+
+    <!-- Z-index -->
+
+
+    <div class="container relative">
+        <div class="bg-red-300 h-20 w-20 p-6 absolute m-10 z-10">Na frente</div>
+        <div class="bg-red-600 h-20 w-20 p-6 absolute">Atrás</div>
+    </div>
+
+
+    <!-- Exercício 4 -->
+
+    <div class="container relative m-10 p-28">
+
+        <H1 class="bg-red-500 m-5">Exercício 4</H1>
+
+        <div class="bg-green-400 h-20 w-20 p-6 absolute m-32 z-10"> DIV1</div>
+
+        <div class="bg-blue-500 h-20 w-20 p-6 absolute m-40 z-20"> DIV2 </div>
+ 
+        <div class="bg-purple-800 h-20 w-20 p-6 absolute m-48 z-30"> DIV3 </div>
+
+    </div>
+
+
+</body>
+</html>

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/output.css">
+    <title>Interatividade</title>
+</head>
+<body>
+
+
+    <!-- Removendo aparências -->
+     
+    <div class="m-4">
+        <select class="appearance-none">
+            <option value="">Teste </option>
+        </select>
+
+        <select>
+            <option value="">Teste </option>
+        </select>
+        
+    </div>
+
+    <!--  Alterando o ponteiro do mouse -->
+
+    <div class="h-20 bg-pink-400 cursor-pointer"></div>
+    <div class="h-20 bg-pink-600 cursor-wait"></div>
+    <div class="h-20 bg-pink-900 cursor-not-allowed"></div>
+    <div class="h-20 bg-pink-200 cursor-text"></div>
+
+    <!-- Removendo o outline -->
+
+    <div class="p-6 bg-red-300">
+        <input type="text" placeholder="clica em mim" class="outline-none">
+        <input type="text" placeholder="clica em mim 2" class="">
+    </div>
+
+
+    <!-- Removendo o evento padrão do HTML -->
+
+    <div class="m-4 bg-gray-300 p-5">
+        <select class=" pointer-events-none">
+            <option value="">Teste pointers </option>
+        </select>
+
+        <select>
+            <option value="">Teste poiters </option>
+        </select>
+
+       <div class="m-5">
+        <textarea name="" id="" class="pointer-events-none"></textarea>
+        <textarea name="" id=""></textarea>
+       </div>
+    </div>
+    
+
+    <!--  Alterando o resize -->
+
+    <div class="m-5 bg-blue-300 p-4">
+        <textarea name="" id="" cols="30" rows="10" class="resize-none"></textarea>
+        <textarea name="" id="" cols="30" rows="10" class="resize-x" ></textarea>
+        <textarea name="" id="" cols="30" rows="10" class="resize-y" ></textarea>
+        <textarea name="" id="" cols="30" rows="10" class="resize" ></textarea>
+        
+    </div>
+
+
+    <!-- Limitando a seleção -->
+
+    <div class="m-5 bg-blue-300 p-4">
+        <p class="select-none">Este paragrafo nao pode ser selecionado</p>
+        
+    </div>
+
+
+</body>
+</html>
